@@ -7,13 +7,15 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 100px;
 `;
 
 export const Title = styled.div`
+  position: sticky;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   font-family: "Pretendard-B";
-  font-size: 30px;
+  font-size: 38px;
 `;
 
 export const Box = styled.div`
@@ -28,8 +30,8 @@ export const Box = styled.div`
 `;
 
 export const Lank = styled.div`
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: "Pretendard-B";
 `;
 
 export const Name = styled.div`
@@ -51,5 +53,48 @@ export const Light = styled.div`
 `;
 
 export const Shake = styled.div`
+  font-size: 18px;
+`;
+
+export const Icon = styled.img`
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+`;
+
+export const SubTitle = styled.div`
+  position: sticky;
+  left: 550px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+`;
+
+export const LankT = styled.div`
+  font-size: 18px;
+  margin-right: 20px;
+`;
+
+export const NameT = styled.div`
+  font-size: 18px;
+  margin-right: 190px;
+`;
+
+export const TimeT = styled.div`
+  font-size: 18px;
+  margin-left: 27px;
+`;
+
+export const SoundT = styled.div`
+  font-size: 18px;
+`;
+
+export const LightT = styled.div`
+  font-size: 18px;
+`;
+
+export const ShakeT = styled.div`
   font-size: 18px;
 `;
